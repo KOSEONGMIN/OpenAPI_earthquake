@@ -1,2 +1,2 @@
 # OpenAPI_earthquake
-Final test - Android programming class
+서울시
