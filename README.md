@@ -15,3 +15,7 @@
 - 현재 내가 위치한 곳으로부터 가까운 지진 옥외 대피소를 지도에 표시해 주며, 대피소 이름과 주소가 제공됩니다. 바로 구글맵을 통해 길찾기가 가능합니다.
 
   
+
+![그림2](https://github.com/KOSEONGMIN/OpenAPI_earthquake/assets/48641340/70139c6a-65d0-4577-8026-664803a2e49b)
+![그림3](https://github.com/KOSEONGMIN/OpenAPI_earthquake/assets/48641340/b115fe63-465e-49d8-975f-7977206f0efc)
+![그림4](https://github.com/KOSEONGMIN/OpenAPI_earthquake/assets/48641340/5751a54c-5f69-4dfa-8ef4-6136532068c3)
