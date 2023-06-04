@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/item_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/personview_background"
+        android:src="@drawable/ic_person"
+        android:maxWidth="32dp"
+        android:maxHeight="32dp"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/item_person"/>
+
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_name"
+        android:layout_alignLeft="@id/item_name"
+        />
+
+    <ImageView
+        android:id="@+id/item_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="24dp"
+        android:maxWidth="24dp"
+        android:src="@drawable/family_phone" />
+
+    <ImageView
+        android:id="@+id/item_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:maxHeight="24dp"
+        android:maxWidth="24dp"
+        app:srcCompat="@drawable/remove" />
+
+</RelativeLayout>

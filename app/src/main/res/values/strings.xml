@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">일로수머</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="shopping1">전투식량닷컴</string>
+    <string name="shopping2">프레퍼샵</string>
+    <string name="shopping3">서바이벌 샵</string>
+
+</resources>

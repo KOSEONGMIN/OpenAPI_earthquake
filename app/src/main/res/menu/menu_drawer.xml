@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_account"
+            android:title="로그인" />
+        <item
+            android:id="@+id/nav_join"
+            android:icon="@drawable/ic_contact_mail"
+            android:title="회원 가입" />
+
+
+
+    </group>
+
+
+
+    <item android:title="뉴스속보">
+        <menu>
+            <item
+                android:id="@+id/kbs"
+                android:icon="@drawable/news"
+                android:title="KBS" />
+            <item
+                android:id="@+id/sbs"
+                android:icon="@drawable/news"
+                android:title="SBS" />
+            <item
+                android:id="@+id/mbc"
+                android:icon="@drawable/news"
+                android:title="MBC" />
+            <item
+                android:id="@+id/jtbc"
+                android:icon="@drawable/news"
+                android:title="JTBC" />
+        </menu>
+    </item>
+
+    <item android:title="비상용품">
+        <menu>
+            <item
+                android:id="@+id/nav_shopping1"
+                android:icon="@drawable/shopping"
+                android:title="전투식량닷컴" />
+            <item
+                android:id="@+id/nav_shopping2"
+                android:icon="@drawable/shopping"
+                android:title="프레퍼 샵" />
+            <item
+                android:id="@+id/nav_shopping3"
+                android:icon="@drawable/shopping"
+                android:title="서바이벌 샵" />
+
+        </menu>
+    </item>
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+        </menu>
+    </item>
+
+    <item android:title="Home">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title="Home" />
+        </menu>
+    </item>
+
+</menu>
